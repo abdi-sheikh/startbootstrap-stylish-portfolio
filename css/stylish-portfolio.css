@@ -11,8 +11,14 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro';
+  font-family: 'Lato' , 'Arial', sans-serif;
 }
+
+.col-sm-4 img{
+  margin-left: 180px;
+
+}
+
 
 .btn-xl {
   padding: 1.25rem 2.5rem;
@@ -21,6 +27,11 @@ body {
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
+}
+
+#about{
+  padding-bottom: 0rem;
+  padding-top: 5rem;
 }
 
 .content-section-heading h2 {
@@ -94,11 +105,13 @@ h6 {
   padding-top: 8rem;
   padding-bottom: 8rem;
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
-  background-position: center center;
+  background:  url("../img/bg-masthead.jpg");
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
 
 .masthead h1 {
   font-size: 4rem;
