@@ -14,8 +14,8 @@ body {
   font-family: 'Lato' , 'Arial', sans-serif;
 }
 
-.col-sm-4 img{
-  margin-left: 180px;
+.col-sm-4 {
+  float: right;
 
 }
 
