@@ -40,6 +40,9 @@
     }
   });
 
+
+
+  
 })(jQuery); // End of use strict
 
 // Disable Google Maps scrolling
@@ -62,3 +65,37 @@ var onMapClickHandler = function(event) {
 }
 // Enable map zooming with mouse scroll when the user clicks the map
 $('.map').on('click', onMapClickHandler);
+
+$(document).ready(function(){
+  //Animations on scroll
+  $('.js--wp-1').waypoint(function(direction){
+    $('.js--wp-1').addClass('animated bounceInLeft');
+    }, {
+      offset: '50%;'
+  });
+
+  $('.js--wp-2').waypoint(function(direction){
+    $('.js--wp-2').addClass('animated bounceInRight');
+    }, {
+      offset: '50%;'
+  });
+
+  $('.js--wp-3').waypoint(function(direction){
+    $('.js--wp-3').addClass('animated fadeInLeftBig');
+    }, {
+      offset: '40%;'
+  });
+
+  $('.js--wp-4').waypoint(function(direction){
+    $('.js--wp-4').addClass('animated fadeInRightBig');
+    }, {
+      offset: '40%;'
+  });
+
+  $('.js--wp-5').waypoint(function(direction){
+    $('.js--wp-5').addClass('animated tada');
+    }, {
+      offset: '50%;'
+  });
+
+});
