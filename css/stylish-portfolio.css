@@ -419,6 +419,7 @@ a:hover, a:focus, a:active {
 .js--wp-1.animated,
 .js--wp-2.animated,
 .js--wp-3.animated,
-.js--wp-4.animated{
+.js--wp-4.animated,
+.js--wp-6.animated{
   opacity: 1;
 }
