@@ -92,6 +92,12 @@ $(document).ready(function(){
       offset: '40%;'
   });
 
+  $('.js--wp-6').waypoint(function(direction){
+    $('.js--wp-6').addClass('animated fadeInUpBig');
+    }, {
+      offset: '40%;'
+  });
+
   $('.js--wp-5').waypoint(function(direction){
     $('.js--wp-5').addClass('animated tada');
     }, {

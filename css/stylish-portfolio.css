@@ -401,7 +401,8 @@ a:hover, a:focus, a:active {
 .js--wp-1,
 .js--wp-2,
 .js--wp-3,
-.js--wp-4{
+.js--wp-4,
+.js--wp-6{
   opacity: 0;
   animation-duration: 1s;
 }
@@ -409,6 +410,10 @@ a:hover, a:focus, a:active {
 .js--wp-5{
   animation-duration: 1s;
   margin-left: 1.5rem!important;
+}
+
+.js--wp-6{
+  margin-left: 18rem!important;
 }
 
 .js--wp-1.animated,
