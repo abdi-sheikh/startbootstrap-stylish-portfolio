@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Stylish Portfolio v5.0.6 (https://startbootstrap.com/template-overviews/stylish-portfolio)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
  */
 
@@ -11,28 +11,16 @@ html {
 }
 
 body {
-  font-family: 'Lato' , 'Arial', sans-serif;
+  font-family: 'Poppins';
 }
-
-.col-sm-4 {
-  float: right;
-
-}
-
 
 .btn-xl {
   padding: 1.25rem 2.5rem;
-  
 }
 
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
-}
-
-#about{
-  padding-bottom: 0rem;
-  padding-top: 5rem;
 }
 
 .content-section-heading h2 {
@@ -42,10 +30,6 @@ body {
 .content-section-heading h3 {
   font-size: 1rem;
   text-transform: uppercase;
-}
-
-#name{
-  font-weight: 400;
 }
 
 h1,
@@ -110,13 +94,11 @@ h6 {
   padding-top: 8rem;
   padding-bottom: 8rem;
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead.jpg");
-  background:  url("../img/bg-masthead.jpg");
-  background-position: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-
 
 .masthead h1 {
   font-size: 4rem;
@@ -392,34 +374,4 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #ecb807 !important;
-}
-
-
-/*---------------------------------------------- */
-/*Animations*/
-/*---------------------------------------------- */
-.js--wp-1,
-.js--wp-2,
-.js--wp-3,
-.js--wp-4,
-.js--wp-6{
-  opacity: 0;
-  animation-duration: 1s;
-}
-
-.js--wp-5{
-  animation-duration: 1s;
-  margin-left: 1.5rem!important;
-}
-
-.js--wp-6{
-  margin-left: 18rem!important;
-}
-
-.js--wp-1.animated,
-.js--wp-2.animated,
-.js--wp-3.animated,
-.js--wp-4.animated,
-.js--wp-6.animated{
-  opacity: 1;
 }
